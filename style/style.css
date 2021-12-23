@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Calibri, Arial;
+    color: black;
+    text-decoration: none;
+}
+.nav-item{
+    display: inline-block;
+    padding: 14px 14px;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    transition: .2s ease-in-out;
+}
+.nav-item:hover{
+    background-color: black;
+}
+.nav-item:nth-child(5){
+    margin-left: 55%;
+    font-size: 15px;
+    height: 100%;
+}
+.nav-item:nth-child(1){
+    margin-left: 20px;
+}
+#lang-div{
+    position: relative;
+    display: none;
+    background-color: rgb(216, 216, 216);
+    padding: 20px 40px;
+    border-radius: 6px;
+    margin: 4px;
+    word-spacing: 14px;
+    width: 80px;
+}
+.lang-ru{
+    color: #000;
+}
+.lang-uz{
+    color: #000;
+}
+.lang:hover{
+    cursor: pointer;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+nav{
+    background-color: rgb(44, 44, 44);
+}
+.nav-link{
+    color: white;
+}
+/*Header is finished*/
+main{
+    width: 85%;
+    float: right;
+}
+#html{
+    height: 300px;
+    background-color: rgb(52, 180, 223);
+    padding: 60px;
+}
+#css{
+    height: 300px;
+    background-color: rgb(52, 180, 223);
+    padding: 60px;
+}
+#js{
+    height: 300px;
+    background-color: rgb(52, 180, 223);
+    padding: 60px;
+}
+.webdev{
+    font-size: 38px;
+}
+.webdev-item{
+    font-size: 20px;
+}
+.web-link{
+    padding: 12px 20px;
+    background-color: rgb(0, 127, 150);
+    border-radius: 8px;
+    color: white;
+}
+.web-link:hover{
+    background-color: rgb(0, 101, 126);
+}
+.code{
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+    width: 38%;
+    top: -100px;
+    left: 550px;
+    height: 220px;
+}
+.code-item{
+    color: white;
+}
+.widht-50{
+    width: 50%;
+}
+.code2{
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+    width: 77%;
+    top: -100px;
+    left: 550px;
+    height: 220px;
+}
+.code3{
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+    width: 77%;
+    top: -100px;
+    left: 550px;
+    height: 220px;
+}
+.code4{
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+    width: 77%;
+    top: -100px;
+    left: 550px;
+    height: 220px;
+}
+#gamedev{
+    height: 350px;
+    background-color: rgb(52, 180, 223);
+    padding: 60px;
+}
+footer{
+    background-color: rgb(23, 149, 199);
+    width: 100%;
+    float: right;
+}
+aside{
+    width: 15%;
+    float: left;
+    background-color: rgb(235, 235, 235);
+}
+.aside{
+    padding: 6px;
+    background-color: rgb(228, 228, 228);
+}
+.aside:hover{
+    background-color: rgb(172, 172, 172);
+}
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+@media screen and (orientation: portrait){
+    .nav-item:nth-child(5){
+        margin-left: 10%;
+        font-size: 13px;
+    }
+    .nav-item:nth-child(1){
+        margin-left: 5px;
+    }
+    .nav-item{
+        font-size: 16px;
+        padding: 12px 8px;
+    }
+    main{
+        width: 100%;
+    }
+    #html{
+        padding: 20px;
+        height: auto;
+    }
+    #css{
+        padding: 20px;
+        height: auto;
+    }
+    #js{
+        padding: 20px;
+        height: auto;
+    }
+    .code{
+        left: 0px;
+        width: 90%;
+        margin: 0px;
+        padding: 10px;
+        top: 18px;
+        height: auto;
+    }
+    .code2{
+        left: 0px;
+        width: 94%;
+        margin: 0px;
+        padding: 10px;
+        top: 18px;
+        height: auto;
+    }
+    .code3{
+        left: 0px;
+        width: 94%;
+        margin: 0px;
+        padding: 10px;
+        top: 18px;
+        height: auto;
+    }
+    .code4{
+        left: 0px;
+        width: 94%;
+        margin: 0px;
+        padding: 10px;
+        top: 18px;
+        height: auto;
+    }
+    .widht-50{
+        width: 95%;
+    }
+    #gamedev{
+        height: 450px;
+        background-color: rgb(52, 180, 223);
+        padding: 20px;
+    }
+    aside{
+        display: none;
+    }
+}
