@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, gamedev, javascript, js, frontend, unity, unity3d, o'yin yasash, геймдев">
+    <meta name="description" content="Learn HTML, CSS, JS and GameDev. Изучайте HTML, CSS, JS и Разработка Игр">
+    <title>Programming-Learn</title>
+    <link rel="icon" href="images/logo1.png" type="icon/icon type">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js"></script>
+</head>
+<body id="body">
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="./pages/html/lesson1.html">HTML</a></li>
+                <li class="nav-item"><a class="nav-link" href="./pages/css/lesson1.html">CSS</a></li>
+                <li class="nav-item"><a class="nav-link" href="./pages/js/lesson1.html">JavaScript</a></li>
+                <li class="nav-item"><a class="nav-link" href="./pages/gamedev/lesson1.html">O'yin dasturlash</a></li>
+                <li class="nav-item  lang" onclick="langsetActive()">lang</li>
+                <li class="nav-item" style="user-select: none;" onclick="dark()">■</li>
+                <li class="nav-item" style="user-select: none;" onclick="light()">□</li>
+            </ul>
+        </nav>
+    </header><br><br>
+    <hr><br>
+    <div id="lang-div">
+        <a href="index.html" class="lang-ru">RUS</a>
+        <a href="indexuz.html" class="lang-uz">UZB</a>
+    </div>
+    <aside id="aside">
+        <br><br><br><br>
+        <ul>
+            <a href="./pages/html/all-func.html"><li class="aside" id="aside-text">Html teglar ro'yhati</li></a>
+            <a href="./pages/css/all-func.html"><li class="aside" id="aside-text1">Css funksiyalar ro'yhati</li></a>
+            <a href="./pages/js/all-func.html"><li class="aside" id="aside-text2">Js funksiyalar ro'yhati</li></a>
+            <a href="./pages/gamedev/all-func.html"><li class="aside" id="aside-text3">C# Unity funksiyalar ro'yhati</li></a>
+        </ul>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </aside>
+    <main>
+        <br><h1 style="text-align: center;" id="h1">Veb dasturlash</h1><br>
+        <div id="html">
+            <div class="widht-50">
+                <h1 class="webdev" style="color: white;">HTML</h1>
+                <p class="webdev-item">
+                    Veb sahifalar yasash tili.
+                </p><br><br>
+                <a href="./pages/html/lesson1.html" class="web-link">HTMLni o'rganing</a>
+            </div>
+            <div class="code">
+                <p class="code-item">
+                    &#60;!DOCTYPE html&#62;<br>
+                    &#60;html&#62;<br>
+                    &#60;head&#62;<br>
+                    &#60;title&#62;Learn HTML
+                    &#60;/title&#62;<br>
+                    &#60;/head&#62;<br>
+                    &#60;body&#62;<br>
+                    &#60;h1&#62;Hello, world!
+                    &#60;/h1&#62;<br>
+                    &#60;p&#62;<br>
+                    This is Paragraf<br>
+                    &#60;/p&#62;<br>
+                    &#60;/body&#62;<br>
+                    &#60;/html&#62;
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="css">
+            <div class="widht-50">
+                <h1 class="webdev" style="color: white;">CSS</h1>
+                <p class="webdev-item">
+                    Veb sahifalarga stil berish tili.
+                </p><br><br>
+                <a href="./pages/css/lesson1.html" class="web-link">CSSni o'rganing</a>
+                <div class="code2">
+                    <pre><p class="code-item">
+body{
+    background-color: green;
+}
+h1{
+    color: white;
+}
+                    </p></pre>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="js">
+            <div class="widht-50">
+                <h1 class="webdev" style="color: white;">JavaScript</h1>
+                <p class="webdev-item">
+                    Veb sahifalarni dasturlash tili.
+                </p><br><br>
+                <a href="./pages/js/lesson1.html" class="web-link">JavaScriptni o'rganing</a>
+                <div class="code3">
+                    <pre><p class="code-item">
+function hello(){
+    var x = 5;
+    document.getElementById("demo").innerHTML = x;
+}
+                    </p></pre>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <br><h1 style="text-align: center;" id="gamedevtext">O'yin dasturlash</h1><br>
+        <div id="gamedev">
+            <div class="widht-50">
+                <h1 class="webdev" style="color: white;">Unity3D</h1>
+                <p class="webdev-item">
+                    O'yin yasash uchun programma.
+                </p><br><br>
+                <a href="./pages/gamedev/lesson1.html" class="web-link">Unity va C#ni o'rganing</a>
+                <div class="code4">
+                    <pre><p class="code-item">
+public void Start()
+{
+    Debug.Log("Hello, world!");
+}
+public void Update()
+{
+    rb.AddForce(10, 0, 0);
+}
+                    </p></pre>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1 style="color: white; font-size: 20px;">Biz bilan bog'laning!</h1>
+        <a href="https://t.me/kncoder/" target="_blank">
+            <img src="images/logo.jpg" alt="telegram" title="My Telegram adress" width="25px" style="border-radius: 50%; padding: 10px 25px;">
+        </a>
+        <br><br>
+    </footer>
+</body>
+</html>
